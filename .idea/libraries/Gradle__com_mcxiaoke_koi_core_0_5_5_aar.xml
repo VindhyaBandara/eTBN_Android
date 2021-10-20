@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mcxiaoke.koi:core:0.5.5@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-6.8-bin/caches/transforms-2/files-2.1/2518277641778cae8c490e1524345dee/jetified-core-0.5.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-6.8-bin/caches/transforms-2/files-2.1/2518277641778cae8c490e1524345dee/jetified-core-0.5.5/res" />
+      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-6.8-bin/caches/transforms-2/files-2.1/2518277641778cae8c490e1524345dee/jetified-core-0.5.5/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-6.8-bin/caches/modules-2/files-2.1/com.mcxiaoke.koi/core/0.5.5/736e49f3e9253dc1f4039b1e3fa4691eab7027c0/core-0.5.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-6.8-bin/caches/modules-2/files-2.1/com.mcxiaoke.koi/core/0.5.5/b7ba7d522f9cf374950e07e9d71da439489493c2/core-0.5.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

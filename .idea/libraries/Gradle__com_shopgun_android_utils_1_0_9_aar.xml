@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.shopgun.android:utils:1.0.9@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-6.8-bin/caches/transforms-2/files-2.1/8fe41fe5798563e3a6984c1e89d06c94/jetified-utils-1.0.9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-6.8-bin/caches/transforms-2/files-2.1/8fe41fe5798563e3a6984c1e89d06c94/jetified-utils-1.0.9/res" />
+      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-6.8-bin/caches/transforms-2/files-2.1/8fe41fe5798563e3a6984c1e89d06c94/jetified-utils-1.0.9/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-6.8-bin/caches/modules-2/files-2.1/com.shopgun.android/utils/1.0.9/a48939164e83c64960af2fb4c0a90fc21629c157/utils-1.0.9-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-6.8-bin/caches/modules-2/files-2.1/com.shopgun.android/utils/1.0.9/eeddb7c36cf04d50462ac97f49146c229334fa3d/utils-1.0.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

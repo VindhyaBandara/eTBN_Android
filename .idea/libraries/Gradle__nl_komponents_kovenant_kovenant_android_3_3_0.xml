@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: nl.komponents.kovenant:kovenant-android:3.3.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-6.8-bin/caches/modules-2/files-2.1/nl.komponents.kovenant/kovenant-android/3.3.0/ac4138c42e3298bf7356ca1a8e5eb0d0c483a5dd/kovenant-android-3.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-6.8-bin/caches/modules-2/files-2.1/nl.komponents.kovenant/kovenant-android/3.3.0/34ad3957417fa0ff7ad93296ee7eff45260570bf/kovenant-android-3.3.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-6.8-bin/caches/modules-2/files-2.1/nl.komponents.kovenant/kovenant-android/3.3.0/bb8aad3434596d0705fe6509c707d6e650b76b05/kovenant-android-3.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: nl.komponents.kovenant:kovenant-ui:3.3.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-6.8-bin/caches/modules-2/files-2.1/nl.komponents.kovenant/kovenant-ui/3.3.0/50caab4a5d4333db850a9e4aa389567638b92c33/kovenant-ui-3.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-6.8-bin/caches/modules-2/files-2.1/nl.komponents.kovenant/kovenant-ui/3.3.0/9c116276a1543b66816c4e888d43a9208fc487cb/kovenant-ui-3.3.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-6.8-bin/caches/modules-2/files-2.1/nl.komponents.kovenant/kovenant-ui/3.3.0/65d0ed3bb420b3f6988d42d4f87cd2195df9fcb1/kovenant-ui-3.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

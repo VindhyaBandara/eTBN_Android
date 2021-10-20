@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Prothumia_Mobile_App.iml" filepath="$PROJECT_DIR$/.idea/modules/Prothumia_Mobile_App.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/r2-workspace-kotlin/liblcp/Prothumia_Mobile_App.liblcp.iml" filepath="$PROJECT_DIR$/.idea/modules/r2-workspace-kotlin/liblcp/Prothumia_Mobile_App.liblcp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/r2-lcp-kotlin/r2-lcp/Prothumia_Mobile_App.r2-lcp.iml" filepath="$PROJECT_DIR$/.idea/modules/r2-lcp-kotlin/r2-lcp/Prothumia_Mobile_App.r2-lcp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/r2-navigator-kotlin/r2-navigator/Prothumia_Mobile_App.r2-navigator.iml" filepath="$PROJECT_DIR$/.idea/modules/r2-navigator-kotlin/r2-navigator/Prothumia_Mobile_App.r2-navigator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/r2-opds-kotlin/r2-opds/Prothumia_Mobile_App.r2-opds.iml" filepath="$PROJECT_DIR$/.idea/modules/r2-opds-kotlin/r2-opds/Prothumia_Mobile_App.r2-opds.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/r2-shared-kotlin/r2-shared/Prothumia_Mobile_App.r2-shared.iml" filepath="$PROJECT_DIR$/.idea/modules/r2-shared-kotlin/r2-shared/Prothumia_Mobile_App.r2-shared.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/r2-streamer-kotlin/r2-streamer/Prothumia_Mobile_App.r2-streamer.iml" filepath="$PROJECT_DIR$/.idea/modules/r2-streamer-kotlin/r2-streamer/Prothumia_Mobile_App.r2-streamer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/r2-testapp-kotlin/r2-testapp/Prothumia_Mobile_App.r2-testapp.iml" filepath="$PROJECT_DIR$/.idea/modules/r2-testapp-kotlin/r2-testapp/Prothumia_Mobile_App.r2-testapp.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,25 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-shared-kotlin\r2-shared\src\main\AndroidManifest.xml:10:1-45
+INJECTED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-shared-kotlin\r2-shared\src\main\AndroidManifest.xml:10:1-45
+INJECTED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-shared-kotlin\r2-shared\src\main\AndroidManifest.xml:10:1-45
+	package
+		ADDED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-shared-kotlin\r2-shared\src\main\AndroidManifest.xml:10:11-42
+		INJECTED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-shared-kotlin\r2-shared\src\main\AndroidManifest.xml
+		INJECTED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-shared-kotlin\r2-shared\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-shared-kotlin\r2-shared\src\main\AndroidManifest.xml:10:1-45
+uses-sdk
+INJECTED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-shared-kotlin\r2-shared\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-shared-kotlin\r2-shared\src\main\AndroidManifest.xml
+INJECTED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-shared-kotlin\r2-shared\src\main\AndroidManifest.xml
+INJECTED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-shared-kotlin\r2-shared\src\main\AndroidManifest.xml
+INJECTED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-shared-kotlin\r2-shared\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-shared-kotlin\r2-shared\src\main\AndroidManifest.xml
+		ADDED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-shared-kotlin\r2-shared\src\main\AndroidManifest.xml
+		INJECTED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-shared-kotlin\r2-shared\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-shared-kotlin\r2-shared\src\main\AndroidManifest.xml
+		ADDED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-shared-kotlin\r2-shared\src\main\AndroidManifest.xml
+		INJECTED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-shared-kotlin\r2-shared\src\main\AndroidManifest.xml

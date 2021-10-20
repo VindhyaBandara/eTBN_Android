@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.commonsware.cwac:sacklist:1.0.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-6.8-bin/caches/transforms-2/files-2.1/2d05a11975b388c36a8a21512a33d697/jetified-sacklist-1.0.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-6.8-bin/caches/transforms-2/files-2.1/2d05a11975b388c36a8a21512a33d697/jetified-sacklist-1.0.3/res" />
+      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-6.8-bin/caches/transforms-2/files-2.1/2d05a11975b388c36a8a21512a33d697/jetified-sacklist-1.0.3/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-6.8-bin/caches/modules-2/files-2.1/com.commonsware.cwac/sacklist/1.0.3/df82e2b84d0fd3efd7260d750cd57fe032c4b9f2/sacklist-1.0.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-6.8-bin/caches/modules-2/files-2.1/com.commonsware.cwac/sacklist/1.0.3/154d77ea0d7e75098163d33120857c1ca197f6d2/sacklist-1.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

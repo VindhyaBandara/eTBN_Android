@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.commonsware.cwac:merge:1.1.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-6.8-bin/caches/transforms-2/files-2.1/08264b9ccd25c068f7489f1f9658caaf/jetified-merge-1.1.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-6.8-bin/caches/transforms-2/files-2.1/08264b9ccd25c068f7489f1f9658caaf/jetified-merge-1.1.2/res" />
+      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-6.8-bin/caches/transforms-2/files-2.1/08264b9ccd25c068f7489f1f9658caaf/jetified-merge-1.1.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-6.8-bin/caches/modules-2/files-2.1/com.commonsware.cwac/merge/1.1.2/b40f133456cc60082093c57068bd2476cc18718c/merge-1.1.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-6.8-bin/caches/modules-2/files-2.1/com.commonsware.cwac/merge/1.1.2/3aef51f906270bc75affe260fe251ec74f71be9c/merge-1.1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

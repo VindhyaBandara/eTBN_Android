@@ -1,0 +1,65 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml:11:1-38:12
+INJECTED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml:11:1-38:12
+INJECTED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml:11:1-38:12
+	package
+		ADDED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml:13:5-39
+		INJECTED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml
+		INJECTED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml:12:5-51
+	xmlns:android
+		ADDED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml:11:11-69
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml:15:5-16:47
+	tools:ignore
+		ADDED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml:16:9-44
+	android:name
+		ADDED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml:15:22-70
+application
+ADDED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml:18:5-36:19
+activity#org.readium.r2.navigator.epub.R2EpubActivity
+ADDED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml:20:9-22:47
+	android:theme
+		ADDED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml:22:13-44
+	android:name
+		ADDED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml:21:13-48
+activity#org.readium.r2.navigator.cbz.R2CbzActivity
+ADDED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml:23:9-25:47
+	android:theme
+		ADDED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml:25:13-44
+	android:name
+		ADDED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml:24:13-46
+activity#org.readium.r2.navigator.audiobook.R2AudiobookActivity
+ADDED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml:26:9-28:47
+	android:theme
+		ADDED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml:28:13-44
+	android:name
+		ADDED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml:27:13-58
+activity#org.readium.r2.navigator.divina.R2DiViNaActivity
+ADDED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml:29:9-31:47
+	android:theme
+		ADDED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml:31:13-44
+	android:name
+		ADDED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml:30:13-52
+activity#org.readium.r2.navigator.pdf.R2PdfActivity
+ADDED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml:32:9-34:47
+	android:theme
+		ADDED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml:34:13-44
+	android:name
+		ADDED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml:33:13-46
+uses-sdk
+INJECTED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml
+INJECTED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml
+INJECTED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml
+INJECTED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml
+		ADDED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml
+		INJECTED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml
+		ADDED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml
+		INJECTED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml

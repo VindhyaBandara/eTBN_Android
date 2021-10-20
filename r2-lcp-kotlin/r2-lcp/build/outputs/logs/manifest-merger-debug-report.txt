@@ -1,0 +1,29 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-lcp-kotlin\r2-lcp\src\main\AndroidManifest.xml:10:1-16:12
+INJECTED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-lcp-kotlin\r2-lcp\src\main\AndroidManifest.xml:10:1-16:12
+INJECTED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-lcp-kotlin\r2-lcp\src\main\AndroidManifest.xml:10:1-16:12
+	package
+		ADDED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-lcp-kotlin\r2-lcp\src\main\AndroidManifest.xml:10:11-39
+		INJECTED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-lcp-kotlin\r2-lcp\src\main\AndroidManifest.xml
+		INJECTED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-lcp-kotlin\r2-lcp\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-lcp-kotlin\r2-lcp\src\main\AndroidManifest.xml:11:5-63
+uses-permission#android.permission.BLUETOOTH
+ADDED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-lcp-kotlin\r2-lcp\src\main\AndroidManifest.xml:14:5-68
+	android:name
+		ADDED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-lcp-kotlin\r2-lcp\src\main\AndroidManifest.xml:14:22-65
+uses-sdk
+INJECTED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-lcp-kotlin\r2-lcp\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-lcp-kotlin\r2-lcp\src\main\AndroidManifest.xml
+INJECTED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-lcp-kotlin\r2-lcp\src\main\AndroidManifest.xml
+INJECTED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-lcp-kotlin\r2-lcp\src\main\AndroidManifest.xml
+INJECTED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-lcp-kotlin\r2-lcp\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-lcp-kotlin\r2-lcp\src\main\AndroidManifest.xml
+		ADDED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-lcp-kotlin\r2-lcp\src\main\AndroidManifest.xml
+		INJECTED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-lcp-kotlin\r2-lcp\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-lcp-kotlin\r2-lcp\src\main\AndroidManifest.xml
+		ADDED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-lcp-kotlin\r2-lcp\src\main\AndroidManifest.xml
+		INJECTED from E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-lcp-kotlin\r2-lcp\src\main\AndroidManifest.xml

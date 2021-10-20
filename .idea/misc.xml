@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Library/eTBNAndroid/Prothumia_Mobile_App/r2-testapp-kotlin/r2-testapp/src/main/res/layout/activity_login.xml" value="0.209375" />
+        <entry key="..\:/Library/eTBNAndroid/Prothumia_Mobile_App/r2-testapp-kotlin/r2-testapp/src/main/res/layout/activity_outline.xml" value="0.2033514492753623" />
+        <entry key="..\:/Library/eTBNAndroid/Prothumia_Mobile_App/r2-testapp-kotlin/r2-testapp/src/main/res/layout/activity_registered_devices.xml" value="0.209375" />
+        <entry key="..\:/Library/eTBNAndroid/Prothumia_Mobile_App/r2-testapp-kotlin/r2-testapp/src/main/res/layout/item_recycle_opds.xml" value="0.209375" />
+        <entry key="..\:/Library/eTBNAndroid/Prothumia_Mobile_App/r2-testapp-kotlin/r2-testapp/src/main/res/layout/item_recycle_opds_list.xml" value="0.209375" />
+        <entry key="..\:/Library/eTBNAndroid/Prothumia_Mobile_App/r2-testapp-kotlin/r2-testapp/src/main/res/layout/section_header.xml" value="0.209375" />
+        <entry key="..\:/Library/eTBNAndroid/Prothumia_Mobile_App/r2-testapp-kotlin/r2-testapp/src/main/res/menu/menu_audio.xml" value="0.14635416666666667" />
+        <entry key="..\:/Library/eTBNAndroid/Prothumia_Mobile_App/r2-testapp-kotlin/r2-testapp/src/main/res/menu/menu_epub.xml" value="0.33" />
+        <entry key="..\:/Library/eTBNAndroid/Prothumia_Mobile_App/r2-testapp-kotlin/r2-testapp/src/main/res/menu/menu_main.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="D:/SWs/Android/gradle-6.8-bin/gradle-6.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/r2-lcp-kotlin/r2-lcp" />
+            <option value="$PROJECT_DIR$/r2-navigator-kotlin/r2-navigator" />
+            <option value="$PROJECT_DIR$/r2-opds-kotlin/r2-opds" />
+            <option value="$PROJECT_DIR$/r2-shared-kotlin/r2-shared" />
+            <option value="$PROJECT_DIR$/r2-streamer-kotlin/r2-streamer" />
+            <option value="$PROJECT_DIR$/r2-testapp-kotlin/r2-testapp" />
+            <option value="$PROJECT_DIR$/r2-workspace-kotlin/liblcp" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

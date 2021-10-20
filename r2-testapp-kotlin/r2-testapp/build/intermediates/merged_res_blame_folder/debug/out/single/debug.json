@@ -1,0 +1,482 @@
+[
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable_ic_replay_5_white_24dp.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\drawable\\ic_replay_5_white_24dp.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\layout_activity_outline.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\layout\\activity_outline.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_bookmark_24.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\drawable\\ic_baseline_bookmark_24.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\menu_menu_filter.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\menu\\menu_filter.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\layout_activity_logout.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\layout\\activity_logout.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable_rbtn_textcolor_selector.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\drawable\\rbtn_textcolor_selector.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\layout_activity_registered_devices.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\layout\\activity_registered_devices.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable_icon_justify.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\drawable\\icon_justify.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable_icon_drm.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\drawable\\icon_drm.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\layout_popup_note.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\layout\\popup_note.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\layout_item_recycle_bookmark.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\layout\\item_recycle_bookmark.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable_icon_left.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\drawable\\icon_left.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\layout_view_action_mode.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\layout\\view_action_mode.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable_ic_skip_next_white_24dp.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\drawable\\ic_skip_next_white_24dp.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\layout_item_recycle_opds_list.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\layout\\item_recycle_opds_list.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_notch.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_notch.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_notch.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_notch.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\menu_menu_audio.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\menu\\menu_audio.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable_selector_blue.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\drawable\\selector_blue.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\menu_menu_main.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_delete.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_delete.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable_selector_red.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\drawable\\selector_red.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable_icon_minus.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\drawable\\icon_minus.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_background.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\mipmap-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable_icon_menu.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\drawable\\icon_menu.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_enhanced_encryption_24.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\drawable\\ic_baseline_enhanced_encryption_24.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable_repfr.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\drawable\\repfr.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable_ic_skip_previous_white_24dp.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\drawable\\ic_skip_previous_white_24dp.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable_ic_pause_white_24dp.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\drawable\\ic_pause_white_24dp.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\menu_menu_comic.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\menu\\menu_comic.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable_rbtn_selector.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\drawable\\rbtn_selector.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\layout_item_spinner_days.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\layout\\item_spinner_days.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable_baseline_forward_10_white_24.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\drawable\\baseline_forward_10_white_24.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_notch.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_notch.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_delete.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_delete.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\layout_item_recycle_outline.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\layout\\item_recycle_outline.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable_selector_yellow.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\drawable\\selector_yellow.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_pen.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_pen.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_notch.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_notch.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_pen.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_pen.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_background.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable_icon_plus.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\drawable\\icon_plus.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable_icon_left_white.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\drawable\\icon_left_white.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_pen.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_pen.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable_newicon_settings.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\drawable\\newicon_settings.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\layout_item_recycle_highlight.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\layout\\item_recycle_highlight.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable_icon_decrease.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\drawable\\icon_decrease.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable_cover.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\drawable\\cover.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable_baseline_fast_rewind_white_24.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\drawable\\baseline_fast_rewind_white_24.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable_icon_font_decrease.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\drawable\\icon_font_decrease.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable__repfr.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\drawable\\_repfr.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\menu_menu_epub.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\menu\\menu_epub.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\layout_section_header.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\layout\\section_header.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable_baseline_fast_forward_white_24.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\drawable\\baseline_fast_forward_white_24.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\layout_popup_passphrase.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\layout\\popup_passphrase.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\menu_menu_action_mode.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\menu\\menu_action_mode.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable_baseline_replay_10_white_24.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\drawable\\baseline_replay_10_white_24.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_background.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\layout_activity_audiobook.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\layout\\activity_audiobook.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\layout_filter_row.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\layout\\filter_row.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable_cnl.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\drawable\\cnl.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable_ic_outline_menu_24.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\drawable\\ic_outline_menu_24.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_delete.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_delete.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\menu_menu_divina.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\menu\\menu_divina.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\layout_item_recycle_opds.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\layout\\item_recycle_opds.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable_background_action_mode.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\drawable\\background_action_mode.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_background.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\mipmap-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable_ic_forward_5_white_24dp.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\drawable\\ic_forward_5_white_24dp.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable_icon_overflow.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\drawable\\icon_overflow.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_notch.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_notch.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable_icon_audio.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\drawable\\icon_audio.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable_selector_purple.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\drawable\\selector_purple.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\layout_view_action_mode_reverse.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\layout\\view_action_mode_reverse.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_delete.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_delete.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable___baseline_search_white_24.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\drawable\\__baseline_search_white_24.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable_ic_play_arrow_white_24dp.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\drawable\\ic_play_arrow_white_24dp.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\menu_menu_bookmark.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\menu\\menu_bookmark.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_notch.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_notch.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_pen.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_pen.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\layout_popup_window_user_settings.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\layout\\popup_window_user_settings.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\layout_popup_delete.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\layout\\popup_delete.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_delete.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_delete.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\layout_filter_window.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\layout\\filter_window.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable_baseline_search_white_24.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\drawable\\baseline_search_white_24.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_pen.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_pen.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_headphones_24.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\drawable\\ic_baseline_headphones_24.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable_icon_increse.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\drawable\\icon_increse.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\layout_item_recycle_search.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\layout\\item_recycle_search.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_delete.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_delete.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable_ic_outline_format_size_24.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\drawable\\ic_outline_format_size_24.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_delete.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_delete.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable_icon_bookmark.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\drawable\\icon_bookmark.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\layout_activity_epub.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\layout\\activity_epub.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_pen.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_pen.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_notch.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_notch.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable_icon_plus_white.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\drawable\\icon_plus_white.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_pen.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_pen.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable_icon_font_increase.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\drawable\\icon_font_increase.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable_selector_green.xml.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\drawable\\selector_green.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable_icon_settings.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\drawable\\icon_settings.png"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\build\\intermediates\\res\\merged\\debug\\drawable_icon_justify_white.png.flat",
+        "source": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-testapp-kotlin\\r2-testapp\\src\\main\\res\\drawable\\icon_justify_white.png"
+    }
+]

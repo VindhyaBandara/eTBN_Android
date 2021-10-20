@@ -1,0 +1,2 @@
+org/readium/r2/opds/BuildConfig.java
+ org.readium.r2.opds.BuildConfig

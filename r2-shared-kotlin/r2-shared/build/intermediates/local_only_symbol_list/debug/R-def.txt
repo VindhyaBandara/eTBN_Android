@@ -1,0 +1,15 @@
+R_DEF: Internal format may change without notice
+local
+string r2.shared.publication.opening_exception.forbidden
+string r2.shared.publication.opening_exception.incorrect_credentials
+string r2.shared.publication.opening_exception.not_found
+string r2.shared.publication.opening_exception.parsing_failed
+string r2.shared.publication.opening_exception.unavailable
+string r2.shared.publication.opening_exception.unsupported_format
+string r2.shared.resource.exception.bad_request
+string r2.shared.resource.exception.cancelled
+string r2.shared.resource.exception.forbidden
+string r2.shared.resource.exception.not_found
+string r2.shared.resource.exception.other
+string r2.shared.resource.exception.out_of_memory
+string r2.shared.resource.exception.unavailable

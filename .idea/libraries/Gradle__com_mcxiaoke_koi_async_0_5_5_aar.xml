@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mcxiaoke.koi:async:0.5.5@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-6.8-bin/caches/transforms-2/files-2.1/f54dbfe0a506cce8d307849b1ed37830/jetified-async-0.5.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-6.8-bin/caches/transforms-2/files-2.1/f54dbfe0a506cce8d307849b1ed37830/jetified-async-0.5.5/res" />
+      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-6.8-bin/caches/transforms-2/files-2.1/f54dbfe0a506cce8d307849b1ed37830/jetified-async-0.5.5/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-6.8-bin/caches/modules-2/files-2.1/com.mcxiaoke.koi/async/0.5.5/6f7fdcbce3422089521ef28e7d488454c55f8ef9/async-0.5.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-6.8-bin/caches/modules-2/files-2.1/com.mcxiaoke.koi/async/0.5.5/cbc80866229770d8911a70577d2bf02e5599843c/async-0.5.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

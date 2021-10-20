@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-shared-kotlin\\r2-shared\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\AllanTrevor\\.gradle\\wrapper\\dists\\gradle-6.8-bin\\caches\\transforms-2\\files-2.1\\b67f14ff714628a14609f6d83631e954\\core-1.5.0-alpha02\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-shared-kotlin\\r2-shared\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\AllanTrevor\\.gradle\\wrapper\\dists\\gradle-6.8-bin\\caches\\transforms-2\\files-2.1\\b67f14ff714628a14609f6d83631e954\\core-1.5.0-alpha02\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-shared-kotlin\\r2-shared\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\AllanTrevor\\.gradle\\wrapper\\dists\\gradle-6.8-bin\\caches\\transforms-2\\files-2.1\\b67f14ff714628a14609f6d83631e954\\core-1.5.0-alpha02\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-shared-kotlin\\r2-shared\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\AllanTrevor\\.gradle\\wrapper\\dists\\gradle-6.8-bin\\caches\\transforms-2\\files-2.1\\b67f14ff714628a14609f6d83631e954\\core-1.5.0-alpha02\\res\\layout-v21\\notification_template_icon_group.xml"
+    }
+]

@@ -1,0 +1,61 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  ~ Module: r2-navigator-kotlin
+4  ~ Developers: Aferdita Muriqi, Clément Baumann
+5  ~
+6  ~ Copyright (c) 2018. Readium Foundation. All rights reserved.
+7  ~ Use of this source code is governed by a BSD-style license which is detailed in the
+8  ~ LICENSE file present in the project repository where this source code is maintained.
+9-->
+10<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+11    xmlns:tools="http://schemas.android.com/tools"
+12    package="org.readium.r2.navigator" >
+13
+14    <uses-sdk
+15        android:minSdkVersion="21"
+15-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml
+16        android:targetSdkVersion="30" />
+16-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml
+17
+18    <uses-permission
+18-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml:15:5-16:47
+19        android:name="android.permission.WRITE_SETTINGS"
+19-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml:15:22-70
+20        tools:ignore="ProtectedPermissions" />
+20-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml:16:9-44
+21
+22    <application>
+22-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml:18:5-36:19
+23        <activity
+23-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml:20:9-22:47
+24            android:name="org.readium.r2.navigator.epub.R2EpubActivity"
+24-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml:21:13-48
+25            android:theme="@style/AppTheme" />
+25-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml:22:13-44
+26        <activity
+26-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml:23:9-25:47
+27            android:name="org.readium.r2.navigator.cbz.R2CbzActivity"
+27-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml:24:13-46
+28            android:theme="@style/AppTheme" />
+28-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml:25:13-44
+29        <activity
+29-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml:26:9-28:47
+30            android:name="org.readium.r2.navigator.audiobook.R2AudiobookActivity"
+30-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml:27:13-58
+31            android:theme="@style/AppTheme" />
+31-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml:28:13-44
+32        <activity
+32-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml:29:9-31:47
+33            android:name="org.readium.r2.navigator.divina.R2DiViNaActivity"
+33-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml:30:13-52
+34            android:theme="@style/AppTheme" />
+34-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml:31:13-44
+35        <activity
+35-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml:32:9-34:47
+36            android:name="org.readium.r2.navigator.pdf.R2PdfActivity"
+36-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml:33:13-46
+37            android:theme="@style/AppTheme" />
+37-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\src\main\AndroidManifest.xml:34:13-44
+38    </application>
+39
+40</manifest>

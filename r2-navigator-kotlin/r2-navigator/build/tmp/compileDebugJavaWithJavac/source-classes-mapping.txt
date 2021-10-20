@@ -1,0 +1,9 @@
+org/readium/r2/navigator/pager/R2RTLViewPager.java
+ org.readium.r2.navigator.pager.R2RTLViewPager
+ org.readium.r2.navigator.pager.R2RTLViewPager$1
+ org.readium.r2.navigator.pager.R2RTLViewPager$ReversingAdapter
+ org.readium.r2.navigator.pager.R2RTLViewPager$ReversingOnPageChangeListener
+ org.readium.r2.navigator.pager.R2RTLViewPager$SavedState
+ org.readium.r2.navigator.pager.R2RTLViewPager$SavedState$1
+org/readium/r2/navigator/BuildConfig.java
+ org.readium.r2.navigator.BuildConfig

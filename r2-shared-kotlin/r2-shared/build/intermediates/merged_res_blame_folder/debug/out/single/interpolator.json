@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-shared-kotlin\\r2-shared\\build\\intermediates\\res\\merged\\debug\\interpolator\\btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml",
+        "source": "C:\\Users\\AllanTrevor\\.gradle\\wrapper\\dists\\gradle-6.8-bin\\caches\\transforms-2\\files-2.1\\38917a974d8b5b065c9ba04c41f47a3c\\appcompat-1.3.0-alpha02\\res\\interpolator\\btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-shared-kotlin\\r2-shared\\build\\intermediates\\res\\merged\\debug\\interpolator\\btn_checkbox_checked_mtrl_animation_interpolator_0.xml",
+        "source": "C:\\Users\\AllanTrevor\\.gradle\\wrapper\\dists\\gradle-6.8-bin\\caches\\transforms-2\\files-2.1\\38917a974d8b5b065c9ba04c41f47a3c\\appcompat-1.3.0-alpha02\\res\\interpolator\\btn_checkbox_checked_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-shared-kotlin\\r2-shared\\build\\intermediates\\res\\merged\\debug\\interpolator\\btn_radio_to_on_mtrl_animation_interpolator_0.xml",
+        "source": "C:\\Users\\AllanTrevor\\.gradle\\wrapper\\dists\\gradle-6.8-bin\\caches\\transforms-2\\files-2.1\\38917a974d8b5b065c9ba04c41f47a3c\\appcompat-1.3.0-alpha02\\res\\interpolator\\btn_radio_to_on_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-shared-kotlin\\r2-shared\\build\\intermediates\\res\\merged\\debug\\interpolator\\btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml",
+        "source": "C:\\Users\\AllanTrevor\\.gradle\\wrapper\\dists\\gradle-6.8-bin\\caches\\transforms-2\\files-2.1\\38917a974d8b5b065c9ba04c41f47a3c\\appcompat-1.3.0-alpha02\\res\\interpolator\\btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-shared-kotlin\\r2-shared\\build\\intermediates\\res\\merged\\debug\\interpolator\\btn_radio_to_off_mtrl_animation_interpolator_0.xml",
+        "source": "C:\\Users\\AllanTrevor\\.gradle\\wrapper\\dists\\gradle-6.8-bin\\caches\\transforms-2\\files-2.1\\38917a974d8b5b065c9ba04c41f47a3c\\appcompat-1.3.0-alpha02\\res\\interpolator\\btn_radio_to_off_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-shared-kotlin\\r2-shared\\build\\intermediates\\res\\merged\\debug\\interpolator\\btn_checkbox_checked_mtrl_animation_interpolator_1.xml",
+        "source": "C:\\Users\\AllanTrevor\\.gradle\\wrapper\\dists\\gradle-6.8-bin\\caches\\transforms-2\\files-2.1\\38917a974d8b5b065c9ba04c41f47a3c\\appcompat-1.3.0-alpha02\\res\\interpolator\\btn_checkbox_checked_mtrl_animation_interpolator_1.xml"
+    },
+    {
+        "merged": "E:\\Library\\eTBNAndroid\\Prothumia_Mobile_App\\r2-shared-kotlin\\r2-shared\\build\\intermediates\\res\\merged\\debug\\interpolator\\fast_out_slow_in.xml",
+        "source": "C:\\Users\\AllanTrevor\\.gradle\\wrapper\\dists\\gradle-6.8-bin\\caches\\transforms-2\\files-2.1\\38917a974d8b5b065c9ba04c41f47a3c\\appcompat-1.3.0-alpha02\\res\\interpolator\\fast_out_slow_in.xml"
+    }
+]

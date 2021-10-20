@@ -1,0 +1,19 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  ~ Module: r2-streamer-kotlin
+4  ~ Developers: Aferdita Muriqi, Clément Baumann
+5  ~
+6  ~ Copyright (c) 2018. Readium Foundation. All rights reserved.
+7  ~ Use of this source code is governed by a BSD-style license which is detailed in the
+8  ~ LICENSE file present in the project repository where this source code is maintained.
+9-->
+10<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+11    package="org.readium.r2.streamer" >
+12
+13    <uses-sdk
+14        android:minSdkVersion="21"
+14-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-streamer-kotlin\r2-streamer\src\main\AndroidManifest.xml
+15        android:targetSdkVersion="30" />
+15-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-streamer-kotlin\r2-streamer\src\main\AndroidManifest.xml
+16
+17</manifest>
