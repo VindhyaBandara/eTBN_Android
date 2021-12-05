@@ -68,9 +68,6 @@ class OPDSListActivity : AppCompatActivity() {//word public added by vindhya
         pubcollectionViewModel = ViewModelProvider(this@OPDSListActivity, PubColletionViewModelFactory())
                 .get(PubColletctionViewModel::class.java)
 
-//        appsession = AppSession(this@OPDSListActivity);
-//        var etts= appsession.loggeduserid
-
         val database = OPDSDatabase(this)
 
         val preferences = getSharedPreferences("org.readium.r2.testapp", Context.MODE_PRIVATE)
@@ -109,8 +106,6 @@ class OPDSListActivity : AppCompatActivity() {//word public added by vindhya
                 val opdsAdapter = pubcollectionlist?.toMutableList()?.let { OPDSViewAdapter(this, it,this@OPDSListActivity) }
 //                val list = pubcollectionlist?.toMutableList() as MutableList<OPDSModel>
 //                val opdsAdapter = OPDSViewAdapter(this, list)
-
-
 
                 coordinatorLayout {
                     fitsSystemWindows = true

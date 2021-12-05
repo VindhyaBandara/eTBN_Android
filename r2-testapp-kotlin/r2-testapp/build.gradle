@@ -15,10 +15,10 @@ apply plugin: 'com.github.dcendents.android-maven'
 group = 'com.github.readium'
 
 
-int major = 2
-int minor = 2
+int major = 1
+int minor = 6
 int patch = 0
-int build = 25
+int build = 0
 String type = ""
 
 def version = "$major.$minor.$patch"

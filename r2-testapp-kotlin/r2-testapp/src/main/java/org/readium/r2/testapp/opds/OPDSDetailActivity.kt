@@ -27,14 +27,20 @@ import android.content.Intent
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.graphics.Typeface
+import android.net.Uri
 import android.os.Bundle
 import android.util.Log
 import android.view.Gravity
 import android.view.Menu
 import android.view.MenuItem
+import android.view.View
 import android.widget.LinearLayout
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.Observer
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.mcxiaoke.koi.ext.onClick
 import com.squareup.picasso.Picasso
 import kotlinx.coroutines.CoroutineScope
@@ -43,6 +49,7 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import org.jetbrains.anko.*
 import org.jetbrains.anko.appcompat.v7.Appcompat
+import org.jetbrains.anko.design.coordinatorLayout
 import org.jetbrains.anko.design.longSnackbar
 import org.jetbrains.anko.recyclerview.v7.recyclerView
 import org.jetbrains.anko.support.v4.nestedScrollView
@@ -59,6 +66,7 @@ import org.readium.r2.testapp.CatalogActivity
 import org.readium.r2.testapp.R
 import org.readium.r2.testapp.R2AboutActivity
 import org.readium.r2.testapp.RegisteredDevicesActivity
+import org.readium.r2.testapp.data.model.PublicationCollections
 import org.readium.r2.testapp.db.Book
 import org.readium.r2.testapp.db.BooksDatabase
 import org.readium.r2.testapp.db.appContext
@@ -70,6 +78,8 @@ import org.readium.r2.testapp.library.LibraryActivity
 import org.readium.r2.testapp.permissions.PermissionHelper
 import org.readium.r2.testapp.permissions.Permissions
 import org.readium.r2.testapp.ui.login.AppSession
+import org.readium.r2.testapp.ui.login.LoginViewModel
+import org.readium.r2.testapp.ui.login.LoginViewModelFactory
 import org.readium.r2.testapp.ui.login.LogoutActivity
 import org.readium.r2.testapp.utils.extensions.*
 import timber.log.Timber
@@ -86,6 +96,7 @@ class OPDSDetailActivity : AppCompatActivity(), DRMLibraryService, CoroutineScop
     /**
      * Context of this scope.
      */
+    private lateinit var pubcollectionViewModel: PubColletctionViewModel
     override val coroutineContext: CoroutineContext
         get() = Dispatchers.Main
 
@@ -104,6 +115,9 @@ class OPDSDetailActivity : AppCompatActivity(), DRMLibraryService, CoroutineScop
 
         /*********************Added By Vindyha for Implementing LCP Module***************************/
         super.onCreate(savedInstanceState)
+        pubcollectionViewModel = ViewModelProvider(this@OPDSDetailActivity, PubColletionViewModelFactory())
+            .get(PubColletctionViewModel::class.java)
+
         lcpService = LcpService(this) ?: throw Exception("liblcp is missing on the classpath")
         contentProtections = listOf(lcpService.contentProtection())
 
@@ -140,6 +154,8 @@ class OPDSDetailActivity : AppCompatActivity(), DRMLibraryService, CoroutineScop
 
         /*********************Added By Vindyha for Implementing LCP Module***************************/
 
+
+
         catalogView = recyclerView {
             layoutManager = GridAutoFitLayoutManager(this@OPDSDetailActivity, 120)
             //adapter = booksAdapter
@@ -155,6 +171,8 @@ class OPDSDetailActivity : AppCompatActivity(), DRMLibraryService, CoroutineScop
         }
 
         val publication: Publication = intent.getPublication(this)
+
+
 
         linearLayout {
             orientation = LinearLayout.HORIZONTAL
@@ -176,7 +194,6 @@ class OPDSDetailActivity : AppCompatActivity(), DRMLibraryService, CoroutineScop
             padding = dip(12)
             this.lparams(width = matchParent, height = wrapContent)
             //weightSum = 2f
-
         }
 
         nestedScrollView {
@@ -184,83 +201,166 @@ class OPDSDetailActivity : AppCompatActivity(), DRMLibraryService, CoroutineScop
             this.lparams(width = matchParent, height = matchParent)
             padding = dip(10)
 
-            linearLayout {
-                orientation = LinearLayout.VERTICAL
+            val identifier = publication.metadata.identifier.toString()//"http://etbn.global/dfd35346-4fb9-4237-855a-7a24a5d807b7"
+            val uuid = identifier.substring(identifier.lastIndexOf("/") + 1, identifier.length);
 
-                imageView {
-                    this@linearLayout.gravity = Gravity.CENTER
+            pubcollectionViewModel.getPublicationInfo(uuid,applicationContext)
 
-                    publication.coverLink?.let { link ->
-                        /*Replaced with() > get() -- Need to check 'Picasso.with' vs 'Picasso.get' in run time-- by Vindhya*/
-                        Picasso.with(this@OPDSDetailActivity).load(link.href).into(this)
-                        //Picasso.get().load(link.href).into(this)
+            pubcollectionViewModel.PublicationInfoResult.observe(this@OPDSDetailActivity, Observer {
+                val publicationinforesult = it ?: return@Observer
 
-                        /*Replaced with() > get() */
-                    } ?: this.run {
-                        if (publication.images.isNotEmpty()) {
-                            /*Replaced with() > get() -- Need to check 'Picasso.with' vs 'Picasso.get' in run time-- by Vindhya*/
-                            Picasso.with(this@OPDSDetailActivity).load(publication.images.first().href).into(this)
-                            //Picasso.get().load(publication.images.first().href).into(this)
-                            /*Replaced with() > get() */
+                if (publicationinforesult.error != null) {
+                    val test= publicationinforesult.error
+                }
+                if (publicationinforesult.success != null) {
+                    val test = publicationinforesult.success.test.authorName
+
+                    linearLayout {
+                        orientation = LinearLayout.VERTICAL
+
+                        imageView {
+                            this@linearLayout.gravity = Gravity.CENTER
+
+                            publication.coverLink?.let { link ->
+                                /*Replaced with() > get() -- Need to check 'Picasso.with' vs 'Picasso.get' in run time-- by Vindhya*/
+                                Picasso.with(this@OPDSDetailActivity).load(link.href).into(this)
+                                //Picasso.get().load(link.href).into(this)
+
+                                /*Replaced with() > get() */
+                            } ?: this.run {
+                                if (publication.images.isNotEmpty()) {
+                                    /*Replaced with() > get() -- Need to check 'Picasso.with' vs 'Picasso.get' in run time-- by Vindhya*/
+                                    Picasso.with(this@OPDSDetailActivity).load(publication.images.first().href).into(this)
+                                    //Picasso.get().load(publication.images.first().href).into(this)
+                                    /*Replaced with() > get() */
+                                }
+                            }
+
+                        }.lparams {
+                            height = 800
+                            width = matchParent
                         }
-                    }
 
-                }.lparams {
-                    height = 800
-                    width = matchParent
-                }
+                        textView {
+                            padding = dip(10)
+                            text = publication.metadata.title //+ "-----" + uuid
+                            textSize = 20f
+                        }
+                        textView {
+                            padding = dip(10)
 
-                textView {
-                    padding = dip(10)
-                    text = publication.metadata.title
-                    textSize = 20f
-                }
-                textView {
-                    padding = dip(10)
-                    text = publication.metadata.description
-                }
+                            text = if(!publicationinforesult.success.test.authorName.isNullOrEmpty()){
+                                "Contributor : " + publicationinforesult.success.test.authorName
+                            } else {
+                                "Contributor : NA"
+                            }
+                        }
+                        textView {
+                            padding = dip(10)
+                            text = if(!publicationinforesult.success.test.isbn.isNullOrEmpty()) {
+                                "ISBN : " + publicationinforesult.success.test.isbn
+                            }else {
+                                "ISBN : NA"
+                            }
+                        }
+                        textView {
+                            padding = dip(10)
+                            text = if(!publicationinforesult.success.test.publisherName.isNullOrEmpty()) {
+                                "Publisher : " + publicationinforesult.success.test.publisherName
+                            }else {
+                                "Publisher : NA"
+                            }
 
-                val downloadUrl = getDownloadURL(publication)
-                //val downloadUrl=URL("http://35.226.47.75:9003/api/v1/purchases/18/license")
-                downloadUrl?.let {
-                    button {
-                        text = context.getString(R.string.opds_detail_download_button)
-                        onClick {
+                        }
+                        textView {
+                            padding = dip(10)
+                            text =if(!publicationinforesult.success.test.cityOfPublication.isNullOrEmpty()) {
+                                "Place of publication : " + publicationinforesult.success.test.cityOfPublication + ", " + publicationinforesult.success.test.countryOfPublication
+                            }else {
+                                "Place of publication : NA"
+                            }
+                        }
+                        textView {
+                            padding = dip(10)
+                            text = if(!publicationinforesult.success.test.publishedDate.isNullOrEmpty()) {
+                                "Date : " + publicationinforesult.success.test.publishedDate
+                            }else {
+                                "Date : NA"
+                            }
+                        }
+                        textView {
+                            padding = dip(10)
+                            text = if(!publicationinforesult.success.test.summary.isNullOrEmpty()) {
+                                publicationinforesult.success.test.summary
+                            }else {
+                                ""
+                            }
+                        }
+
+
+                        val downloadUrl = getDownloadURL(publication)
+                        var test= publication.metadata.otherMetadata
+                        //val downloadUrl=URL("http://35.226.47.75:9003/api/v1/purchases/18/license")
+
+
+                        downloadUrl?.let {
+                            button {
+                                text = context.getString(R.string.opds_detail_download_button)
+                                onClick {
 //                            val progress = indeterminateProgressDialog(getString(R.string.progress_wait_while_downloading_book))
 //                            progress.show()
 
-                            /***********************************************************************/
-                            launch (Dispatchers.Main)
-                            {
+                                    var lastelement: String = downloadUrl.toString().substringAfterLast("/")
+                                    if(lastelement != "")
+                                    {
+                                        launch (Dispatchers.Main)
+                                        {
 
-                                val progress =
-                                        blockingProgressDialog(getString(R.string.progress_wait_while_downloading_book))
-                                                .apply { show() }
+                                            val progress =
+                                                blockingProgressDialog(getString(R.string.progress_wait_while_downloading_book))
+                                                    .apply { show() }
 
 //                                downloadUrl.openConnection().addRequestProperty("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluQGFkbWluLmNvbSIsInBhc3N3b3JkIjoiMTIzMzIxIiwiZmlyc3ROYW1lIjoiQWRtaW4iLCJvcmdhbml6YXRpb25OYW1lIjoiIiwib3JnYW5pemF0aW9uSWQiOjAsImlkIjoxLCJpYXQiOjE2MjU0NjM2OTgsImV4cCI6MTYyNTU1MDA5OH0.BuBgLkntvgOJB3d4pdu7cit50VArGWvV1rptFf1zotk")
 //                                downloadUrl.openConnection()
-                                val downloadedFile = downloadUrl.copyToTempFile(downloadUrl.toString())?: return@launch
-                                //downloadUrl.openConnection()
+                                            val downloadedFile = downloadUrl.copyToTempFile(downloadUrl.toString())?: return@launch
+                                            //downloadUrl.openConnection()
 
 
-                                /****************************By Vindhya ****************************/
-                                var coverimg = ByteArrayOutputStream()
-                                val publicationIdentifier = publication.metadata.identifier ?: publication.metadata.title
-                                val author = publication.metadata.authorName
-                                /****************************End By Vindhya****************************/
-                                var bitmapurl:String =""
+                                            /****************************By Vindhya ****************************/
+                                            var coverimg = ByteArrayOutputStream()
+                                            val publicationIdentifier = publication.metadata.identifier ?: publication.metadata.title
+                                            val author = publication.metadata.authorName
+                                            /****************************End By Vindhya****************************/
+                                            var bitmapurl:String =""
 
-                                if (publication.images.isNotEmpty()) {
-                                    bitmapurl = publication.images.first().href
+                                            if (publication.images.isNotEmpty()) {
+                                                bitmapurl = publication.images.first().href
+                                            }
+
+                                            importPublication(downloadedFile, sourceUrl = downloadUrl.toString(), progress = progress, pubtitle = publication.metadata.title,bitmapurl = bitmapurl,pubidentifier = publicationIdentifier,pubauthor = author)
+                                        }
+                                    }
+                                    else
+                                    {
+                                        Toast.makeText(
+                                            applicationContext,
+                                            "Publication is not available.",
+                                            Toast.LENGTH_LONG
+                                        ).show()
+                                    }
+                                    /***********************************************************************/
+
+                                    /***********************************************************************/
                                 }
-
-                                importPublication(downloadedFile, sourceUrl = downloadUrl.toString(), progress = progress, pubtitle = publication.metadata.title,bitmapurl = bitmapurl,pubidentifier = publicationIdentifier,pubauthor = author)
                             }
-                            /***********************************************************************/
                         }
                     }
                 }
-            }
+                else
+                {
+
+                }
+            })
         }
     }
 

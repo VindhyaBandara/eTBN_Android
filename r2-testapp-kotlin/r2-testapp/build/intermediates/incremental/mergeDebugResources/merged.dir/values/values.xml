@@ -1067,7 +1067,7 @@
     <string name="action_sign_in_short">Sign in</string>
     <string name="add_publication_to_library">Add a publication to your library</string>
     <string name="app_name" translatable="false">eTBN</string>
-    <string name="app_version">1.6</string>
+    <string name="app_version">1.7</string>
     <string name="app_version_header">Version</string>
     <string name="app_version_label">App Version:</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>

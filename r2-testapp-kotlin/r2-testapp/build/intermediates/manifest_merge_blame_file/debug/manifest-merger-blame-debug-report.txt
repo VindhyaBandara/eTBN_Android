@@ -1,8 +1,8 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="org.etbn.reader"
-4    android:versionCode="2020025"
-5    android:versionName="2.2.0-25" >
+4    android:versionCode="1060000"
+5    android:versionName="1.6.0" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
@@ -47,471 +47,470 @@
 25-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:17:9-41
 26        android:supportsRtl="true"
 26-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:18:9-35
-27        android:testOnly="true"
-28        android:theme="@style/AppTheme"
-28-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:19:9-40
-29        android:usesCleartextTraffic="true" >
-29-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:20:9-44
-30        <activity
-30-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:23:9-26:51
-31            android:name="org.readium.r2.testapp.RegisteredDevicesActivity"
-31-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:24:13-54
-32            android:exported="true"
-32-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:25:13-36
-33            android:label="@string/regd_devices" />
-33-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:26:13-49
-34        <!-- <activity -->
-35        <!-- android:name="" -->
-36        <!-- android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode" -->
-37        <!-- android:hardwareAccelerated="true" -->
-38        <!-- android:windowSoftInputMode="adjustResize" -->
-39        <!-- /> -->
-40        <activity
-40-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:33:9-43:20
-41            android:name="org.readium.r2.testapp.ui.login.LoginActivity"
-41-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:34:13-51
-42            android:label="@string/title_activity_login"
-42-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:35:13-57
-43            android:windowSoftInputMode="adjustPan" >
-43-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:36:13-52
-44            <intent-filter>
-44-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:37:13-42:29
-45                <action android:name="android.intent.action.MAIN" />
-45-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:38:17-69
-45-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:38:25-66
-46                <action android:name="android.intent.action.VIEW" />
-46-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:39:17-69
-46-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:39:25-66
-47
-48                <category android:name="android.intent.category.LAUNCHER" />
-48-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:41:17-77
-48-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:41:27-74
-49            </intent-filter>
-50        </activity>
-51        <activity
-51-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:44:9-58:20
-52            android:name="org.readium.r2.testapp.CatalogActivity"
-52-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:45:13-44
-53            android:clearTaskOnLaunch="true"
-53-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:46:13-45
-54            android:configChanges="orientation|screenSize"
-54-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:47:13-59
-55            android:label="@string/my_library" >
-55-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:48:13-47
-56
-57            <!--
-58            <intent-filter>
-59                  <action android:name="android.intent.action.MAIN" />
-60
-61                  <category android:name="android.intent.category.DEFAULT" />
-62            </intent-filter>
-63            -->
-64
-65        </activity>
-66        <activity
-66-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:59:9-207:20
-67            android:name="org.readium.r2.testapp.utils.R2DispatcherActivity"
-67-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:60:13-55
-68            android:launchMode="singleInstance"
-68-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:61:13-48
-69            android:noHistory="true"
-69-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:62:13-37
-70            android:theme="@android:style/Theme.NoDisplay" >
-70-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:63:13-59
-71
-72            <!--
-73            WARNING: Matching with intent-filters on media types and file extensions is a mess.
-74            This is very sensitive, therefore change these settings with care.
-75
-76            1. Don't mix the SEND and the VIEW actions in one intent-filter. Because SEND won't
-77               work if you put a `android:scheme`, but VIEW requires it.
-78
-79            2. Matching on file extensions for the SEND action doesn't work.
-80
-81            3. the documentation about `android:pathPattern` (used for matching file
-82               extensions) states:
-83
-84               > These attributes are meaningful only if the scheme and host attributes are also
-85               > specified for the filter.
-86
-87               But this is wrong, since using `android:scheme` on the SEND action will break the
-88               matching. Instead of setting `android:scheme`, you need to set `android:mimeType="*/*"`
-89               to match file extensions with SEND.
-90
-91            4. `android:pathPattern` is case sensitive and is not using a true regex (it's just
-92                globbing), so we need to match the uppercase versions of file extensions as well.
-93            -->
+27        android:theme="@style/AppTheme"
+27-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:19:9-40
+28        android:usesCleartextTraffic="true" >
+28-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:20:9-44
+29        <activity
+29-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:23:9-26:51
+30            android:name="org.readium.r2.testapp.RegisteredDevicesActivity"
+30-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:24:13-54
+31            android:exported="true"
+31-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:25:13-36
+32            android:label="@string/regd_devices" />
+32-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:26:13-49
+33        <!-- <activity -->
+34        <!-- android:name="" -->
+35        <!-- android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode" -->
+36        <!-- android:hardwareAccelerated="true" -->
+37        <!-- android:windowSoftInputMode="adjustResize" -->
+38        <!-- /> -->
+39        <activity
+39-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:33:9-43:20
+40            android:name="org.readium.r2.testapp.ui.login.LoginActivity"
+40-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:34:13-51
+41            android:label="@string/title_activity_login"
+41-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:35:13-57
+42            android:windowSoftInputMode="adjustPan" >
+42-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:36:13-52
+43            <intent-filter>
+43-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:37:13-42:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:38:17-69
+44-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:38:25-66
+45                <action android:name="android.intent.action.VIEW" />
+45-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:39:17-69
+45-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:39:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:41:17-77
+47-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:41:27-74
+48            </intent-filter>
+49        </activity>
+50        <activity
+50-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:44:9-58:20
+51            android:name="org.readium.r2.testapp.CatalogActivity"
+51-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:45:13-44
+52            android:clearTaskOnLaunch="true"
+52-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:46:13-45
+53            android:configChanges="orientation|screenSize"
+53-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:47:13-59
+54            android:label="@string/my_library" >
+54-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:48:13-47
+55
+56            <!--
+57            <intent-filter>
+58                  <action android:name="android.intent.action.MAIN" />
+59
+60                  <category android:name="android.intent.category.DEFAULT" />
+61            </intent-filter>
+62            -->
+63
+64        </activity>
+65        <activity
+65-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:59:9-207:20
+66            android:name="org.readium.r2.testapp.utils.R2DispatcherActivity"
+66-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:60:13-55
+67            android:launchMode="singleInstance"
+67-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:61:13-48
+68            android:noHistory="true"
+68-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:62:13-37
+69            android:theme="@android:style/Theme.NoDisplay" >
+69-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:63:13-59
+70
+71            <!--
+72            WARNING: Matching with intent-filters on media types and file extensions is a mess.
+73            This is very sensitive, therefore change these settings with care.
+74
+75            1. Don't mix the SEND and the VIEW actions in one intent-filter. Because SEND won't
+76               work if you put a `android:scheme`, but VIEW requires it.
+77
+78            2. Matching on file extensions for the SEND action doesn't work.
+79
+80            3. the documentation about `android:pathPattern` (used for matching file
+81               extensions) states:
+82
+83               > These attributes are meaningful only if the scheme and host attributes are also
+84               > specified for the filter.
+85
+86               But this is wrong, since using `android:scheme` on the SEND action will break the
+87               matching. Instead of setting `android:scheme`, you need to set `android:mimeType="*/*"`
+88               to match file extensions with SEND.
+89
+90            4. `android:pathPattern` is case sensitive and is not using a true regex (it's just
+91                globbing), so we need to match the uppercase versions of file extensions as well.
+92            -->
+93
 94
-95
-96            <!-- SEND (Share) action -->
+95            <!-- SEND (Share) action -->
+96
 97
-98
-99            <!-- e.g. Dropbox Export, Gmail Send, Files Share. -->
-100            <intent-filter>
-100-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:93:13-125:29
-101                <action android:name="android.intent.action.SEND" />
-101-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:94:17-69
-101-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:94:25-66
-102
-103                <category android:name="android.intent.category.DEFAULT" />
-103-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:96:17-76
-103-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:96:27-73
-104                <category android:name="android.intent.category.BROWSABLE" />
-104-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:97:17-78
-104-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:97:27-75
-105
-106                <!-- WARNING: Don't set `android:scheme` because it will break the matching. -->
+98            <!-- e.g. Dropbox Export, Gmail Send, Files Share. -->
+99            <intent-filter>
+99-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:93:13-125:29
+100                <action android:name="android.intent.action.SEND" />
+100-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:94:17-69
+100-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:94:25-66
+101
+102                <category android:name="android.intent.category.DEFAULT" />
+102-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:96:17-76
+102-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:96:27-73
+103                <category android:name="android.intent.category.BROWSABLE" />
+103-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:97:17-78
+103-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:97:27-75
+104
+105                <!-- WARNING: Don't set `android:scheme` because it will break the matching. -->
+106
 107
-108
-109                <!-- Audiobook (Readium) -->
-110                <data android:mimeType="application/audiobook+zip" />
+108                <!-- Audiobook (Readium) -->
+109                <data android:mimeType="application/audiobook+zip" />
+109-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
+109-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:23-67
+110                <data android:mimeType="application/audiobook+json" />
 110-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
 110-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:23-67
-111                <data android:mimeType="application/audiobook+json" />
-111-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
-111-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:23-67
-112                <!-- CBZ -->
-113                <data android:mimeType="application/vnd.comicbook+zip" />
+111                <!-- CBZ -->
+112                <data android:mimeType="application/vnd.comicbook+zip" />
+112-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
+112-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:23-67
+113                <data android:mimeType="application/x-cbz" />
 113-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
 113-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:23-67
-114                <data android:mimeType="application/x-cbz" />
+114                <data android:mimeType="application/x-cbr" />
 114-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
 114-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:23-67
-115                <data android:mimeType="application/x-cbr" />
-115-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
-115-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:23-67
-116                <!-- DiViNa -->
-117                <data android:mimeType="application/divina+zip" />
+115                <!-- DiViNa -->
+116                <data android:mimeType="application/divina+zip" />
+116-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
+116-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:23-67
+117                <data android:mimeType="application/divina+json" />
 117-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
 117-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:23-67
-118                <data android:mimeType="application/divina+json" />
-118-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
-118-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:23-67
-119                <!-- EPUB -->
-120                <data android:mimeType="application/epub+zip" />
-120-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
-120-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:23-67
-121                <!-- LCP -->
-122                <data android:mimeType="application/audiobook+lcp" />
+118                <!-- EPUB -->
+119                <data android:mimeType="application/epub+zip" />
+119-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
+119-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:23-67
+120                <!-- LCP -->
+121                <data android:mimeType="application/audiobook+lcp" />
+121-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
+121-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:23-67
+122                <data android:mimeType="application/pdf+lcp" />
 122-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
 122-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:23-67
-123                <data android:mimeType="application/pdf+lcp" />
+123                <data android:mimeType="application/vnd.readium.lcp.license.v1.0+json" />
 123-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
 123-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:23-67
-124                <data android:mimeType="application/vnd.readium.lcp.license.v1.0+json" />
-124-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
-124-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:23-67
-125                <!-- LPF -->
-126                <data android:mimeType="application/lpf+zip" />
-126-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
-126-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:23-67
-127                <!-- PDF -->
-128                <data android:mimeType="application/pdf" />
-128-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
-128-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:23-67
-129                <!-- WebPub (Readium) -->
-130                <data android:mimeType="application/webpub+zip" />
+124                <!-- LPF -->
+125                <data android:mimeType="application/lpf+zip" />
+125-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
+125-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:23-67
+126                <!-- PDF -->
+127                <data android:mimeType="application/pdf" />
+127-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
+127-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:23-67
+128                <!-- WebPub (Readium) -->
+129                <data android:mimeType="application/webpub+zip" />
+129-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
+129-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:23-67
+130                <data android:mimeType="application/webpub+json" />
 130-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
 130-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:23-67
-131                <data android:mimeType="application/webpub+json" />
-131-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
-131-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:23-67
-132            </intent-filter>
-133
-134            <!-- VIEW (Open with) action -->
+131            </intent-filter>
+132
+133            <!-- VIEW (Open with) action -->
+134
 135
-136
-137            <!-- Works when an app knows the media type of a file, e.g. Gmail or Chrome. -->
-138            <intent-filter>
-138-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:131:13-166:29
-139                <action android:name="android.intent.action.VIEW" />
-139-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:39:17-69
-139-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:39:25-66
-140
-141                <category android:name="android.intent.category.DEFAULT" />
-141-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:96:17-76
-141-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:96:27-73
-142                <category android:name="android.intent.category.BROWSABLE" />
-142-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:97:17-78
-142-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:97:27-75
-143
-144                <data android:scheme="app" />
+136            <!-- Works when an app knows the media type of a file, e.g. Gmail or Chrome. -->
+137            <intent-filter>
+137-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:131:13-166:29
+138                <action android:name="android.intent.action.VIEW" />
+138-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:39:17-69
+138-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:39:25-66
+139
+140                <category android:name="android.intent.category.DEFAULT" />
+140-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:96:17-76
+140-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:96:27-73
+141                <category android:name="android.intent.category.BROWSABLE" />
+141-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:97:17-78
+141-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:97:27-75
+142
+143                <data android:scheme="app" />
+143-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
+143-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:137:23-43
+144                <data android:scheme="content" />
 144-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
 144-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:137:23-43
-145                <data android:scheme="content" />
+145                <data android:scheme="file" />
 145-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
 145-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:137:23-43
-146                <data android:scheme="file" />
+146                <data android:scheme="http" />
 146-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
 146-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:137:23-43
-147                <data android:scheme="http" />
+147                <data android:scheme="https" />
 147-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
 147-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:137:23-43
-148                <data android:scheme="https" />
-148-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
-148-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:137:23-43
-149
-150                <!-- Audiobook (Readium) -->
-151                <data android:mimeType="application/audiobook+zip" />
+148
+149                <!-- Audiobook (Readium) -->
+150                <data android:mimeType="application/audiobook+zip" />
+150-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
+150-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:23-67
+151                <data android:mimeType="application/audiobook+json" />
 151-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
 151-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:23-67
-152                <data android:mimeType="application/audiobook+json" />
-152-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
-152-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:23-67
-153                <!-- CBZ -->
-154                <data android:mimeType="application/vnd.comicbook+zip" />
+152                <!-- CBZ -->
+153                <data android:mimeType="application/vnd.comicbook+zip" />
+153-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
+153-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:23-67
+154                <data android:mimeType="application/x-cbz" />
 154-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
 154-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:23-67
-155                <data android:mimeType="application/x-cbz" />
+155                <data android:mimeType="application/x-cbr" />
 155-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
 155-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:23-67
-156                <data android:mimeType="application/x-cbr" />
-156-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
-156-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:23-67
-157                <!-- DiViNa -->
-158                <data android:mimeType="application/divina+zip" />
+156                <!-- DiViNa -->
+157                <data android:mimeType="application/divina+zip" />
+157-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
+157-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:23-67
+158                <data android:mimeType="application/divina+json" />
 158-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
 158-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:23-67
-159                <data android:mimeType="application/divina+json" />
-159-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
-159-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:23-67
-160                <!-- EPUB -->
-161                <data android:mimeType="application/epub+zip" />
-161-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
-161-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:23-67
-162                <!-- LCP -->
-163                <data android:mimeType="application/audiobook+lcp" />
+159                <!-- EPUB -->
+160                <data android:mimeType="application/epub+zip" />
+160-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
+160-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:23-67
+161                <!-- LCP -->
+162                <data android:mimeType="application/audiobook+lcp" />
+162-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
+162-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:23-67
+163                <data android:mimeType="application/pdf+lcp" />
 163-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
 163-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:23-67
-164                <data android:mimeType="application/pdf+lcp" />
+164                <data android:mimeType="application/vnd.readium.lcp.license.v1.0+json" />
 164-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
 164-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:23-67
-165                <data android:mimeType="application/vnd.readium.lcp.license.v1.0+json" />
-165-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
-165-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:23-67
-166                <!-- LPF -->
-167                <data android:mimeType="application/lpf+zip" />
-167-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
-167-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:23-67
-168                <!-- PDF -->
-169                <data android:mimeType="application/pdf" />
-169-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
-169-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:23-67
-170                <!-- WebPub (Readium) -->
-171                <data android:mimeType="application/webpub+zip" />
+165                <!-- LPF -->
+166                <data android:mimeType="application/lpf+zip" />
+166-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
+166-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:23-67
+167                <!-- PDF -->
+168                <data android:mimeType="application/pdf" />
+168-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
+168-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:23-67
+169                <!-- WebPub (Readium) -->
+170                <data android:mimeType="application/webpub+zip" />
+170-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
+170-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:23-67
+171                <data android:mimeType="application/webpub+json" />
 171-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
 171-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:23-67
-172                <data android:mimeType="application/webpub+json" />
-172-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
-172-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:23-67
-173            </intent-filter>
-174
-175            <!-- Works when an app doesn't know the media type, e.g. Dropbox -->
-176            <intent-filter>
-176-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:169:13-206:29
-177                <action android:name="android.intent.action.VIEW" />
-177-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:39:17-69
-177-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:39:25-66
-178
-179                <category android:name="android.intent.category.DEFAULT" />
-179-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:96:17-76
-179-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:96:27-73
-180                <category android:name="android.intent.category.BROWSABLE" />
-180-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:97:17-78
-180-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:97:27-75
-181
-182                <data android:host="*" />
+172            </intent-filter>
+173
+174            <!-- Works when an app doesn't know the media type, e.g. Dropbox -->
+175            <intent-filter>
+175-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:169:13-206:29
+176                <action android:name="android.intent.action.VIEW" />
+176-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:39:17-69
+176-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:39:25-66
+177
+178                <category android:name="android.intent.category.DEFAULT" />
+178-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:96:17-76
+178-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:96:27-73
+179                <category android:name="android.intent.category.BROWSABLE" />
+179-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:97:17-78
+179-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:97:27-75
+180
+181                <data android:host="*" />
+181-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
+181-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:175:23-39
+182                <data android:scheme="app" />
 182-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
-182-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:175:23-39
-183                <data android:scheme="app" />
+182-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:137:23-43
+183                <data android:scheme="content" />
 183-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
 183-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:137:23-43
-184                <data android:scheme="content" />
+184                <data android:scheme="file" />
 184-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
 184-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:137:23-43
-185                <data android:scheme="file" />
+185                <data android:scheme="http" />
 185-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
 185-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:137:23-43
-186                <data android:scheme="http" />
+186                <data android:scheme="https" />
 186-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
 186-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:137:23-43
-187                <data android:scheme="https" />
-187-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
-187-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:137:23-43
-188
-189                <!-- This media type is necessary, otherwise it won't match on the file extension -->
-190                <data android:mimeType="*/*" />
+187
+188                <!-- This media type is necessary, otherwise it won't match on the file extension -->
+189                <data android:mimeType="*/*" />
+189-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
+189-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:23-67
+190                <data android:pathPattern=".*\\.audiobook" />
 190-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
-190-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:23-67
-191                <data android:pathPattern=".*\\.audiobook" />
+190-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:184:23-59
+191                <data android:pathPattern=".*\\.AUDIOBOOK" />
 191-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
 191-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:184:23-59
-192                <data android:pathPattern=".*\\.AUDIOBOOK" />
+192                <data android:pathPattern=".*\\.cbz" />
 192-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
 192-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:184:23-59
-193                <data android:pathPattern=".*\\.cbz" />
+193                <data android:pathPattern=".*\\.CBZ" />
 193-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
 193-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:184:23-59
-194                <data android:pathPattern=".*\\.CBZ" />
+194                <data android:pathPattern=".*\\.divina" />
 194-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
 194-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:184:23-59
-195                <data android:pathPattern=".*\\.divina" />
+195                <data android:pathPattern=".*\\.DIVINA" />
 195-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
 195-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:184:23-59
-196                <data android:pathPattern=".*\\.DIVINA" />
+196                <data android:pathPattern=".*\\.epub" />
 196-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
 196-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:184:23-59
-197                <data android:pathPattern=".*\\.epub" />
+197                <data android:pathPattern=".*\\.EPUB" />
 197-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
 197-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:184:23-59
-198                <data android:pathPattern=".*\\.EPUB" />
+198                <data android:pathPattern=".*\\.lcpa" />
 198-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
 198-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:184:23-59
-199                <data android:pathPattern=".*\\.lcpa" />
+199                <data android:pathPattern=".*\\.LCPA" />
 199-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
 199-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:184:23-59
-200                <data android:pathPattern=".*\\.LCPA" />
+200                <data android:pathPattern=".*\\.lcpdf" />
 200-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
 200-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:184:23-59
-201                <data android:pathPattern=".*\\.lcpdf" />
+201                <data android:pathPattern=".*\\.LCPDF" />
 201-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
 201-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:184:23-59
-202                <data android:pathPattern=".*\\.LCPDF" />
+202                <data android:pathPattern=".*\\.lcpl" />
 202-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
 202-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:184:23-59
-203                <data android:pathPattern=".*\\.lcpl" />
+203                <data android:pathPattern=".*\\.LCPL" />
 203-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
 203-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:184:23-59
-204                <data android:pathPattern=".*\\.LCPL" />
+204                <data android:pathPattern=".*\\.lpf" />
 204-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
 204-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:184:23-59
-205                <data android:pathPattern=".*\\.lpf" />
+205                <data android:pathPattern=".*\\.LPF" />
 205-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
 205-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:184:23-59
-206                <data android:pathPattern=".*\\.LPF" />
+206                <data android:pathPattern=".*\\.pdf" />
 206-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
 206-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:184:23-59
-207                <data android:pathPattern=".*\\.pdf" />
+207                <data android:pathPattern=".*\\.PDF" />
 207-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
 207-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:184:23-59
-208                <data android:pathPattern=".*\\.PDF" />
+208                <data android:pathPattern=".*\\.webpub" />
 208-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
 208-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:184:23-59
-209                <data android:pathPattern=".*\\.webpub" />
+209                <data android:pathPattern=".*\\.WEBPUB" />
 209-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
 209-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:184:23-59
-210                <data android:pathPattern=".*\\.WEBPUB" />
+210                <data android:pathPattern=".*\\.zab" />
 210-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
 210-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:184:23-59
-211                <data android:pathPattern=".*\\.zab" />
+211                <data android:pathPattern=".*\\.ZAB" />
 211-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
 211-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:184:23-59
-212                <data android:pathPattern=".*\\.ZAB" />
-212-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:103:17-70
-212-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:184:23-59
-213            </intent-filter>
-214        </activity>
-215        <activity
-215-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:208:9-210:66
-216            android:name="org.readium.r2.testapp.opds.OPDSCatalogActivity"
-216-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:209:13-53
-217            android:label="@string/title_activity_opdscatalog" />
-217-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:210:13-63
-218        <activity
-218-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:211:9-213:63
-219            android:name="org.readium.r2.testapp.R2AboutActivity"
-219-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:212:13-44
-220            android:label="@string/title_activity_r2_about" />
-220-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:213:13-60
-221        <activity
-221-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:214:9-216:61
-222            android:name="org.readium.r2.testapp.ui.login.LogoutActivity"
-222-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:215:13-52
-223            android:label="@string/title_activity_logout" />
-223-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:216:13-58
-224        <activity
-224-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:217:9-219:59
-225            android:name="org.readium.r2.testapp.epub.EpubActivity"
-225-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:218:13-46
-226            android:label="@string/title_activity_epub" />
-226-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:219:13-56
-227        <activity android:name="org.readium.r2.testapp.pdf.PdfActivity" />
-227-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:220:9-53
-227-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:220:19-50
-228        <activity
-228-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:221:9-223:59
-229            android:name="org.readium.r2.testapp.comic.DiViNaActivity"
-229-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:222:13-49
-230            android:label="@string/title_activity_epub" />
-230-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:223:13-56
-231        <activity
-231-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:224:9-226:59
-232            android:name="org.readium.r2.testapp.comic.ComicActivity"
-232-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:225:13-48
-233            android:label="@string/title_activity_epub" />
-233-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:226:13-56
-234        <activity
-234-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:227:9-230:47
-235            android:name="org.readium.r2.testapp.DRMManagementActivity"
-235-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:228:13-50
-236            android:label="DRM Management"
-236-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:229:13-43
-237            android:theme="@style/AppTheme" />
-237-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:230:13-44
-238        <activity
-238-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:231:9-233:62
-239            android:name="org.readium.r2.testapp.outline.R2OutlineActivity"
-239-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:232:13-54
-240            android:label="@string/title_activity_outline" />
-240-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:233:13-59
-241        <activity
-241-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:234:9-236:64
-242            android:name="org.readium.r2.testapp.opds.OPDSListActivity"
-242-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:235:13-50
-243            android:label="@string/title_activity_opds_list" />
-243-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:236:13-61
-244        <activity
-244-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:237:9-239:66
-245            android:name="org.readium.r2.testapp.opds.OPDSDetailActivity"
-245-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:238:13-52
-246            android:label="@string/title_activity_opds_detail" />
-246-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:239:13-63
-247        <activity
-247-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:240:9-242:59
-248            android:name="org.readium.r2.testapp.audiobook.AudiobookActivity"
-248-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:241:13-56
-249            android:label="@string/title_activity_epub" />
-249-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:242:13-56
-250        <activity
-250-->[:r2-navigator] E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:9-25:47
-251            android:name="org.readium.r2.navigator.epub.R2EpubActivity"
-251-->[:r2-navigator] E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-72
-252            android:theme="@style/AppTheme" />
-252-->[:r2-navigator] E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-44
-253        <activity
-253-->[:r2-navigator] E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:9-28:47
-254            android:name="org.readium.r2.navigator.cbz.R2CbzActivity"
-254-->[:r2-navigator] E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:13-70
-255            android:theme="@style/AppTheme" />
-255-->[:r2-navigator] E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-44
-256        <activity
-256-->[:r2-navigator] E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:9-31:47
-257            android:name="org.readium.r2.navigator.audiobook.R2AudiobookActivity"
-257-->[:r2-navigator] E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:13-82
-258            android:theme="@style/AppTheme" />
-258-->[:r2-navigator] E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-44
-259        <activity
-259-->[:r2-navigator] E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:9-34:47
-260            android:name="org.readium.r2.navigator.divina.R2DiViNaActivity"
-260-->[:r2-navigator] E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:13-76
-261            android:theme="@style/AppTheme" />
-261-->[:r2-navigator] E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:13-44
-262        <activity
-262-->[:r2-navigator] E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:9-37:47
-263            android:name="org.readium.r2.navigator.pdf.R2PdfActivity"
-263-->[:r2-navigator] E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:13-70
-264            android:theme="@style/AppTheme" />
-264-->[:r2-navigator] E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:13-44
-265    </application>
-266
-267</manifest>
+212            </intent-filter>
+213        </activity>
+214        <activity
+214-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:208:9-210:66
+215            android:name="org.readium.r2.testapp.opds.OPDSCatalogActivity"
+215-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:209:13-53
+216            android:label="@string/title_activity_opdscatalog" />
+216-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:210:13-63
+217        <activity
+217-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:211:9-213:63
+218            android:name="org.readium.r2.testapp.R2AboutActivity"
+218-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:212:13-44
+219            android:label="@string/title_activity_r2_about" />
+219-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:213:13-60
+220        <activity
+220-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:214:9-216:61
+221            android:name="org.readium.r2.testapp.ui.login.LogoutActivity"
+221-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:215:13-52
+222            android:label="@string/title_activity_logout" />
+222-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:216:13-58
+223        <activity
+223-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:217:9-219:59
+224            android:name="org.readium.r2.testapp.epub.EpubActivity"
+224-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:218:13-46
+225            android:label="@string/title_activity_epub" />
+225-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:219:13-56
+226        <activity android:name="org.readium.r2.testapp.pdf.PdfActivity" />
+226-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:220:9-53
+226-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:220:19-50
+227        <activity
+227-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:221:9-223:59
+228            android:name="org.readium.r2.testapp.comic.DiViNaActivity"
+228-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:222:13-49
+229            android:label="@string/title_activity_epub" />
+229-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:223:13-56
+230        <activity
+230-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:224:9-226:59
+231            android:name="org.readium.r2.testapp.comic.ComicActivity"
+231-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:225:13-48
+232            android:label="@string/title_activity_epub" />
+232-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:226:13-56
+233        <activity
+233-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:227:9-230:47
+234            android:name="org.readium.r2.testapp.DRMManagementActivity"
+234-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:228:13-50
+235            android:label="DRM Management"
+235-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:229:13-43
+236            android:theme="@style/AppTheme" />
+236-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:230:13-44
+237        <activity
+237-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:231:9-233:62
+238            android:name="org.readium.r2.testapp.outline.R2OutlineActivity"
+238-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:232:13-54
+239            android:label="@string/title_activity_outline" />
+239-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:233:13-59
+240        <activity
+240-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:234:9-236:64
+241            android:name="org.readium.r2.testapp.opds.OPDSListActivity"
+241-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:235:13-50
+242            android:label="@string/title_activity_opds_list" />
+242-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:236:13-61
+243        <activity
+243-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:237:9-239:66
+244            android:name="org.readium.r2.testapp.opds.OPDSDetailActivity"
+244-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:238:13-52
+245            android:label="@string/title_activity_opds_detail" />
+245-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:239:13-63
+246        <activity
+246-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:240:9-242:59
+247            android:name="org.readium.r2.testapp.audiobook.AudiobookActivity"
+247-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:241:13-56
+248            android:label="@string/title_activity_epub" />
+248-->E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-testapp-kotlin\r2-testapp\src\main\AndroidManifest.xml:242:13-56
+249        <activity
+249-->[:r2-navigator] E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:9-25:47
+250            android:name="org.readium.r2.navigator.epub.R2EpubActivity"
+250-->[:r2-navigator] E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-72
+251            android:theme="@style/AppTheme" />
+251-->[:r2-navigator] E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-44
+252        <activity
+252-->[:r2-navigator] E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:9-28:47
+253            android:name="org.readium.r2.navigator.cbz.R2CbzActivity"
+253-->[:r2-navigator] E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:13-70
+254            android:theme="@style/AppTheme" />
+254-->[:r2-navigator] E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-44
+255        <activity
+255-->[:r2-navigator] E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:9-31:47
+256            android:name="org.readium.r2.navigator.audiobook.R2AudiobookActivity"
+256-->[:r2-navigator] E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:13-82
+257            android:theme="@style/AppTheme" />
+257-->[:r2-navigator] E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-44
+258        <activity
+258-->[:r2-navigator] E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:9-34:47
+259            android:name="org.readium.r2.navigator.divina.R2DiViNaActivity"
+259-->[:r2-navigator] E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:13-76
+260            android:theme="@style/AppTheme" />
+260-->[:r2-navigator] E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:13-44
+261        <activity
+261-->[:r2-navigator] E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:9-37:47
+262            android:name="org.readium.r2.navigator.pdf.R2PdfActivity"
+262-->[:r2-navigator] E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:13-70
+263            android:theme="@style/AppTheme" />
+263-->[:r2-navigator] E:\Library\eTBNAndroid\Prothumia_Mobile_App\r2-navigator-kotlin\r2-navigator\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:13-44
+264    </application>
+265
+266</manifest>

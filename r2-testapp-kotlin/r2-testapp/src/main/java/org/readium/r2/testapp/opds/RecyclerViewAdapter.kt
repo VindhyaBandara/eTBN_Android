@@ -16,6 +16,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.mcxiaoke.koi.ext.onClick
 import com.squareup.picasso.Picasso
@@ -23,6 +24,9 @@ import org.readium.r2.shared.extensions.putPublication
 import org.readium.r2.shared.publication.Publication
 import org.readium.r2.shared.publication.opds.images
 import org.readium.r2.testapp.R
+import org.readium.r2.testapp.RegisteredDevicesActivity
+import org.readium.r2.testapp.db.appContext
+import org.readium.r2.testapp.ui.login.AppSession
 
 class RecyclerViewAdapter(private val activity: Activity, private val strings: MutableList<Publication>) : RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder>() {
 
@@ -47,6 +51,16 @@ class RecyclerViewAdapter(private val activity: Activity, private val strings: M
         }
 
         viewHolder.itemView.onClick {
+            /****************************************************/
+//            val opdslistactivity =  OPDSListActivity()
+//            opdslistactivity.appsession = AppSession(appContext)
+//            val loggeduid = opdslistactivity.appsession.loggeduserid
+//
+//            val i = Intent(activity, RegisteredDevicesActivity::class.java)
+//            i.putExtra ("uuid" , "a7d60750-ae40-46e0-a950-a18eafae77c4")
+//            startActivity(i)
+//            this.finish()
+            /****************************************************/
             activity.startActivity(Intent(activity, OPDSDetailActivity::class.java).apply {
                 putPublication(publication)
             })

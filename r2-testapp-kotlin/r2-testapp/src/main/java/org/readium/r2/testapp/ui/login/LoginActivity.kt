@@ -158,7 +158,7 @@ class LoginActivity : AppCompatActivity() {
             }
             if (versioninforesult.success != null) {
                 val Lversion= versioninforesult.success.test.getversion()
-                val CVersion = 1.6
+                val CVersion = 1.7
                 if(Lversion.toFloat() > CVersion.toFloat())
                 {
                     val isMandotory : Boolean= versioninforesult.success.test.getisMandatory().toBoolean()

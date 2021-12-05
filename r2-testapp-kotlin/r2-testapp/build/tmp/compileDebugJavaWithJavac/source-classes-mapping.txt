@@ -7,6 +7,8 @@ org/readium/r2/testapp/data/model/PublicationCollections.java
 org/readium/r2/testapp/data/model/AuthenticatedUser.java
  org.readium.r2.testapp.data.model.AuthenticatedUser
  org.readium.r2.testapp.data.model.user
+org/readium/r2/testapp/data/model/PublicationInfo.java
+ org.readium.r2.testapp.data.model.PublicationInfo
 org/readium/r2/testapp/data/model/RegisteredDevices.java
  org.readium.r2.testapp.data.model.RegisteredDevices
 org/readium/r2/testapp/ui/login/AppSession.java

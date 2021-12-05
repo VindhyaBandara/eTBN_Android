@@ -122,40 +122,5 @@ class LoginDataSource {
 
     fun logout() {
         // TODO: revoke authentication
-
-    }
-
-    fun  login_(pusername: String, ppassword: String,pdeviceid:String,pdevicename:String,pmacdadd:String, pcontext: Context, volleyreslisner:VolleyResponseListener)
-    {
-        val queue = Volley.newRequestQueue(pcontext)
-//        val url = "https://prothumia-etbn-hub-v1-dot-model-signifier-297723.uc.r.appspot.com/api/v1/licenses/user-collection/:"
-        //val url = "https://prothumia-hub-dev-dot-model-signifier-297723.uc.r.appspot.com/api/v1/auth/login"
-        val url = "https://prothumia-etbn-hub-v1-5-dot-model-signifier-297723.uc.r.appspot.com/api/v1/auth/login"
-
-        val requestBody ="\"username\":\"orgadmin@admin.com\",\"password\":\"123321\""
-        val jarrequest =  object: JsonArrayRequest(Request.Method.POST, url,null,
-            Response.Listener<JSONArray> { response ->
-
-                val gson = GsonBuilder().create()
-                val CollectionArray: Array<PublicationCollections> = gson.fromJson(response.toString(), Array<PublicationCollections>::class.java)
-
-                volleyreslisner.onResponse(CollectionArray)
-            },
-            Response.ErrorListener {
-                volleyreslisner.onError("Error Occured")
-            })
-        {
-//            override fun getHeaders(): MutableMap<String, String> {
-//                val headers = java.util.HashMap<String, String>()
-//
-//                return headers
-//            }
-
-            override fun getBody(): ByteArray {
-                return requestBody.toByteArray(Charset.defaultCharset())
-            }
-        }
-
-        queue.add(jarrequest)
     }
 }
